@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Simple document</title>
+    <style>
+        .show {
+            visibility: visible
+        }
+        .hide {
+            display: none
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Practice for Chapter 58 to 67 (DOM) -->
+
+
+    <button onClick="showInput('h1')">H1</button>
+    <button onClick="showInput('h2')">H2</button>
+    <button onClick="showInput('h3')">H3</button>
+    <button onClick="showInput('h4')">H4</button>
+    <button onClick="showInput('h5')">H5</button>
+    <button onClick="showInput('h6')">H6</button>
+    <button onClick="showInput('p')">P</button>
+
+    <div id="mydiv" class="hide">
+        <input type='text' id="myInputField" />
+        <button onClick="createEle()">Add</button>
+    </div>
+
+    <div id="mydiv2">
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
